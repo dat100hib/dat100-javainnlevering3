@@ -233,7 +233,7 @@ http://www.picture.com/oo.jpg
 
 Metoden skal returnere `true` om filen blev skrevet og skal håndtere eventuelle unntak ifm. fil-håndtering ved å bruke try-catch. 
 
-**Hint**: bruk `toString()`-metoden på innlegg-samling. Filen `bloggkorrekt.dat` i Eclipse-prosjektet med tester inneholder korrekt resultat. Når testen `TestSkriv`-testen kjøres vil der bli skrevet i filen `blogg.dat` der resultatet kan inspiseres. Dvs. om metoden er korrekt implementert skal innholdet av filen `blogg.dat` være lik innholdet av filen `bloggkorrekt.dat`
+**Hint**: bruk `toString()`-metoden på innlegg-samling. Filen `bloggkorrekt.dat` inneholder korrekt resultat. Når testen `TestSkriv`-testen kjøres vil der bli skrevet i filen `blogg.dat` der resultatet kan inspiseres. Dvs. om metoden er korrekt implementert skal innholdet av filen `blogg.dat` være lik innholdet av filen `bloggkorrekt.dat`
 
 ## Oppgave 5: Lese blogg fra fil - valgfri
 
@@ -243,13 +243,13 @@ Implementer følgende metode i klassen `LesBlogg.java`:
 
 som leser inn bloggen fra en fil på formatet som i oppgave 4 og returnerer en samling (blogg) med de `Innlegg`-objekt som er lest inn.
 
-Metoden skal håndtere eventuelle unntak ifm. filer vha. try-catch. Det kan antas innholdet i filen er på korrekt format. Testen `TestLesBlogg.java` vil forsøke å lese inn filen `bloggkorrekt.dat`.
+Metoden skal håndtere eventuelle unntak ifm. filer vha. try-catch. Det kan antas at innholdet i filen er på korrekt format. Testen `TestLesBlogg.java` vil forsøke å lese inn filen `bloggkorrekt.dat`.
 
 **Hint:** Start med å lese inn første linje og opprett en blogg med det antall innlegg som står angitt i første linje av filen. Les inn et innlegg om gangen og hver gang et innlegg leses inn, finn ut om det er en tekst-innlegg eller et bilde-innlegg. Dette bestemmer da hva som evt. skal leses videre.
 
 ## Oppgave 6: HTML - valgfri
 
-I denne oppgaven skal bloggen kunne skrives til en fil i HTML format. Klassen `HtmlBlogg` er en subklassen av klassen `Blogg` der `toString()`-metoden overskrives slik den istedet for den vanlig tekst-representasjon genererens en representasjon av bloggen in HTML format. Testen i `TestHtmlBlogg` oppretter en blogg og bruker `skrivBlogg`-metoden med en `HtmlBlogg` til å skrive resultatet i filen `blogg.html`. Innholdet av filen ved korrekt implementasjon bør være eksempelvis:
+I denne oppgaven skal bloggen kunne skrives til en fil i HTML format. Klassen `HtmlBlogg` er en subklassen av klassen `Blogg` der `toString()`-metoden overskrives slik den istedet for den vanlig tekst-representasjon genererer en representasjon av bloggen in HTML format. Testen i `TestHtmlBlogg` oppretter en blogg og bruker `skrivBlogg`-metoden med en `HtmlBlogg` til å skrive resultatet i filen `blogg.html`. Innholdet av filen ved korrekt implementasjon bør være eksempelvis:
 
 ```html
 <html>
