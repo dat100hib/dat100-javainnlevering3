@@ -4,7 +4,7 @@
 
 Dere skal skrive Java-kode for klasser til et blogg-system på nettet. I tillegg skal dere skrive metoder som bruker input/output og filer for å lagre å hente inn blogg-innlegg.  
 
-Oppgavene på denne programmeringslab er **obligatoriske** og *kan* løses i grupper med opptil tre studenter. Deler av oppgave 3 samt 5, 6 og 7 er valgfrie. De valgfrie oppgaver kan gjøres uavhengig av hverandre og vil resultere i en helt grunnleggende web-applikasjon der det er mulig å vise bloggen i HTML format i en nettleser.
+Oppgavene på denne programmeringslab er **obligatoriske** og *kan* løses i grupper med opptil fire studenter. Deler av oppgave 3 samt 5, 6 og 7 er valgfrie. De valgfrie oppgaver kan gjøres uavhengig av hverandre og vil resultere i en helt grunnleggende web-applikasjon der det er mulig å vise bloggen i HTML format i en nettleser.
 
 Selve oppsettet av oppgavene med startkode og enhetstester er veldig lik Java Programmerings 2 oppgaven (tabeller og matriser). Husk å spørre om hjelp om der skulle være problemer med å kjøre enhetstestene eller noe som er uklart i oppgavene.
 
