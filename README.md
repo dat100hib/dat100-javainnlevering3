@@ -21,7 +21,7 @@ https://github.com/dat100hib/dat100-javainnlevering3/
 
 Begynn med å opprette en kopi av denne oppbevaringsplassen ved å bruke *Use this template* (se øverste høyre hjørne på github-websiden). Du vil da få en kopi av oppbevaringsplassen med startkoden på din egen github konto. Du kan nå clone denne kopien ned på egen PC (bruk eks. GitHub Desktop). 
 
-Det er kun *en person* i gruppen som skal utføre *Use as template* på startkoden. Den som har utført *Use as template* kan etterfølgende gi tilgang til sin lokale kopi av oppbevaringsplassen til de andre gruppe-medlemmer ved å bruke *Settings* og *Manage Access* på GitHub. De andre gruppemedlemmer kan etterfølgende klone oppbevaringsplassen ved å bruke Github Desktop. På denne måten vil alle gruppe-medlemmer jobbe på samme oppbevaringsplass og dele koden som implementeres.
+Det er kun *en person* i gruppen som skal utføre *Use as template* på startkoden. Den som har utført *Use as template* kan etterfølgende gi tilgang til sin GitHub kopi av oppbevaringsplassen til de andre gruppe-medlemmer ved å bruke *Settings* og *Manage Access* på GitHub. De andre gruppemedlemmer kan etterfølgende klone oppbevaringsplassen til egen PC ved å bruke eks. Github Desktop. På denne måten vil alle gruppe-medlemmer jobbe på samme oppbevaringsplass og dele koden som implementeres.
 
 ### Klone og importere startkode og enhetstester
 
@@ -29,7 +29,7 @@ Du må nå laste ned (klone) oppbevaringsplassen med kode som blev opprettet ove
 
 1. Velg *Code* på Github-siden
 
-2. Velg lenken og last ned en kopi (clone) oppbevaringsplassen på samme måten som du har gjort i Github Desktop i tidligere oppgaver for å importere.
+2. Velg lenken og last ned en kopi (clone) av oppbevaringsplassen på samme måten som du har gjort i Github Desktop i tidligere oppgaver for å importere.
 
 Start-koden ligger i er organisert slik at bygge-systemet Maven automatisk kan brukes til å kompilere koden og kjøre test i GitHub-skyen. 
 
@@ -61,7 +61,7 @@ I etterkant av innleveringen kommer vi til å gjøre den liten undersøkelse omk
 
 ## Oppgave 1 - Abstrakt klasse
 
-Klassen `Innlegg` skal fungere som en basis-klasse for bloggen. De konkrete innlegg vil bli representeres via objekter av subklasser av `Innlegg`. Klassen er en abstrakt klasse siden vi ikke kommer til å skulle opprette objekter av klassen `Innlegg` men "kun" bruke den til å samle fellestrekk mellom de ulike typer innlegg.
+Klassen `Innlegg` skal fungere som en basis-klasse for bloggen. De konkrete innlegg vil bli representert via objekter av subklasser av `Innlegg`. Klassen er en abstrakt klasse siden vi ikke kommer til å skulle opprette objekter av klassen `Innlegg` men "kun" bruke den til å samle fellestrekk mellom de ulike typer innlegg.
 
 #### a)
 
@@ -158,11 +158,11 @@ Implementer en metode `public int getAntall()` som returnerer antall innlegg-obj
 
 ##### d)
 
-Implementer metode `public Innlegg[] getSamling()` som returnerer en peker til tabellen av innlegg-objekt.
+Implementer metoden `public Innlegg[] getSamling()` som returnerer en peker til tabellen av innlegg-objekt.
 
 ##### e)
 
-Implementer metode `public int finnInnlegg(Innlegg innlegg)` som returnerer indeks (posisjon) i tabellen for et innlegg i samlingen med samme `id` som parameteren `innlegg` (om en slik finnes) og -1 ellers. Bruk `erLik`-metoden for `Innlegg`-objekt i implementasjonen
+Implementer metoden `public int finnInnlegg(Innlegg innlegg)` som returnerer indeks (posisjon) i tabellen for et innlegg i samlingen med samme `id` som parameteren `innlegg` (om en slik finnes) og -1 ellers. Bruk `erLik`-metoden for `Innlegg`-objekt i implementasjonen
 
 ##### f)
 
