@@ -200,7 +200,7 @@ Implementer en metode `public boolean slett(Innlegg innlegg)` som sletter innleg
 
 Implementer en metode `public int[] search(String user, String ord)` som returnerer en tabell av id'er på alle innlegg i bloggen der teksten inneholder strengen angitt med parameteren `ord`.
 
-## Oppgave 4: Skrive blogg til fil
+## Oppgave 4: Skrive blogg til fil - valgfri
 
 For å løse denne oppgaven anbefales det å lese avsnitt 7.1 og 7.4 i java-boken og se på notater fra forelesninger om filer og om unntak. Denne oppgaven samt oppgave 5 nedenfor er også relatert til:
 
