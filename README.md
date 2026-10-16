@@ -53,7 +53,7 @@ Når koden legges opp på GitHub ved å utføre en *push* vil GitHub sky-tjenest
 
 De som ønsker å teste og eksperimentere med bruken av kode co-piloter kan gjøre dette i prosjektet.
 
-Dette kan eks. være AI assistant i IntelliJ: https://plugins.jetbrains.com/plugin/22282-jetbrains-ai-assistant
+Dette kan eks. være AI assistant i IntelliJ: https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html 
 
 eller Github co-pilot: https://github.com/features/copilot
 
